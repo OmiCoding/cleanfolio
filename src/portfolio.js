@@ -1,48 +1,90 @@
+import resume from './assets/resume.pdf'
+
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: window.location.href,
+  title: 'Omar Est.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
-  description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+  name: 'Omar',
+  role: 'Fullstack Developer',
+  resume,
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://linkedin.com/omar-estevez',
+    github: 'https://github.com/OmiCoding',
   },
 }
 
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
+
   {
-    name: 'Project 1',
+    name: 'LkRemedies',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A company that sells all natural plant derived medicine that helps people with imflammation, memory, mood, appetite, stress, sleep, etc.',
+    stack: [
+      'Bootstrap',
+      'TypeScript',
+      'Gatsby',
+      'Webpack',
+      'Accessibe',
+      'BigCommerce',
+    ],
+    livePreview: 'https://lkremedies.com/',
   },
   {
-    name: 'Project 2',
+    name: 'MediumPhormat',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Medium Phormat offers product photography services in packages you can book online. Completely tailor your custom product photography package to your business or brand.',
+    stack: ['Shopify', 'Liquid'],
+    livePreview: 'https://mediumphormat.com/',
   },
   {
-    name: 'Project 3',
+    name: 'Daazzll',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A self promotion, social networking platform for creatives sharing short animated clips and images.',
+    stack: [
+      'CSS',
+      'TypeScript',
+      'React',
+      'Node',
+      'Express',
+      'Webpack',
+      'Jest',
+      'Postgresql',
+      'Redis',
+      'Prisma',
+      'Docker',
+      'Nginx',
+    ],
+    sourceCode: 'https://github.com/OmiCoding/Daazzll',
+  },
+  {
+    name: 'Blubelt',
+    description: 'A simple job posting web application for blue collar workers',
+    stack: [
+      'Emotion',
+      'TypeScript',
+      'React',
+      'Node',
+      'Express',
+      'Webpack',
+      'Jest',
+      'MongoDB',
+      'Redis',
+      'Docker',
+      'Nginx',
+    ],
+    sourceCode: 'https://bitbucket.org/bitcoder247/blue-belt',
+  },
+
+  {
+    name: '',
+    description: '',
+    stack: [],
   },
 ]
 
@@ -51,12 +93,17 @@ const skills = [
   // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
+  'SCSS',
+  'Tailwind',
+  'Styled-Components',
   'JavaScript',
   'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Gatsby',
+  'Next',
+  'Node',
+  'Webpack',
+  'Docker',
   'Git',
   'CI/CD',
   'Jest',
@@ -65,7 +112,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'omar-estevez@protonmail.com',
 }
 
 export { header, about, projects, skills, contact }
