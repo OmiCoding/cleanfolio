@@ -82,9 +82,10 @@ const projects = [
   },
 
   {
-    name: '',
-    description: '',
-    stack: [],
+    name: 'E-commerce Demo',
+    description: 'A custom e-commerce demo site using Gatsby, cloudinary, graphql to set up product items on the frontend, and some custom designs.',
+    stack: ['Gatsbyjs', 'Graphql', 'Cloudinary', 'Emotion'],
+    sourceCode: 'https://bitbucket.org/bitcoder247/ecommerce-project'
   },
 ]
 
