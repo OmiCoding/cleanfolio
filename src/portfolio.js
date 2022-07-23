@@ -12,8 +12,8 @@ const about = {
   role: 'Fullstack Developer',
   resume,
   social: {
-    linkedin: 'https://linkedin.com/omar-estevez',
-    github: 'https://github.com/OmiCoding',
+    linkedin: 'https://www.linkedin.com/in/omar-estevez/',
+    github: 'https://github.com/OmiCoding/',
   },
 }
 
@@ -83,23 +83,22 @@ const projects = [
 
   {
     name: 'E-commerce Demo',
-    description: 'A custom e-commerce demo site using Gatsby, cloudinary, graphql to set up product items on the frontend, and some custom designs.',
+    description:
+      'A custom e-commerce demo site using Gatsby, cloudinary, graphql to set up product items on the frontend, and some custom designs.',
     stack: ['Gatsbyjs', 'Graphql', 'Cloudinary', 'Emotion'],
-    sourceCode: 'https://bitbucket.org/bitcoder247/ecommerce-project'
+    sourceCode: 'https://bitbucket.org/bitcoder247/ecommerce-project',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
+  'React',
+  'JavaScript',
+  'TypeScript',
   'SCSS',
   'Tailwind',
   'Styled-Components',
-  'JavaScript',
-  'TypeScript',
-  'React',
   'Gatsby',
   'Next',
   'Node',
