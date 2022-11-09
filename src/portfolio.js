@@ -61,6 +61,7 @@ const projects = [
       'Nginx',
     ],
     sourceCode: 'https://github.com/OmiCoding/Daazzll',
+    livePreview: 'https://daazzll.com/'
   },
   {
     name: 'Blubelt',
